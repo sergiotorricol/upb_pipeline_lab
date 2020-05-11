@@ -30,7 +30,3 @@ Resources:
             - logs:CreateLogStream
             - logs:PutLogEvents
             Resource: arn:aws:logs:*:*:*
-
-Outputs:
-  RoleARN:
-    Value: !GetAtt MyLambdaRole.Arn
