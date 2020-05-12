@@ -13,7 +13,7 @@ phases:
             - ./deploy.sh -b
     post_build:
         commands:
-            - echo post-builds
+            - echo post-buildsss
 artifacts:
     files:
         - template.yaml
